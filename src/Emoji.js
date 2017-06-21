@@ -1,4 +1,5 @@
 const React = require('react');
+const EmojiOne = require('emojione');
 
 /**
  * CSS Styles for emoji block
@@ -12,10 +13,11 @@ const style = {
   lineHeight: '75px',
   textAlign: 'center',
   fontSize: '3em',
-  border: 'var(--main-border)',
+  border: undefined, // TODO: Use settings to see if EmojiOne is enabled. Set border to 'var(--main-border)' if not
   cursor: 'pointer'
 };
-
+EmojiOne.imagePathPNG = "https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/"
 module.exports = ({emoji, onClick}) => (
-  <div style={style} onClick={onClick}>{emoji}</div>
+  // TODO: Add a setting to enable/disable EmojiOne
+  <div style={style} onClick={onClick} dangerouslySetInnerHTML={{__html: EmojiOne.unicodeToImage(emoji)}}></div>
 );
