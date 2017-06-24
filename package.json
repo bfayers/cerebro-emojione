@@ -1,14 +1,18 @@
 {
-  "name": "cerebro-emoj",
-  "version": "0.2.3",
-  "description": "Cerebro plugin to find relevant emoji from text",
+  "name": "cerebro-emojione",
+  "version": "0.1.0",
+  "description": "Forked from cerebro-emoj, but uses EmojiOne instead of native emoji",
   "license": "MIT",
-  "repository": "KELiON/cerebro-emoj",
-  "author": {
+  "repository": "https://github.com/nielsmaerten/cerebro-emojione",
+  "authors": [{
     "name": "Alexandr Subbotin",
     "email": "kelionweb@gmail.com",
     "url": "asubbotin.ru"
-  },
+  },{
+    "name": "Niels Maerten",
+    "email": "sayhi@niels.me",
+    "url": "niels.me"
+  }],
   "engines": {
     "node": ">=4"
   },
@@ -21,6 +25,7 @@
   "keywords": [
     "emoj",
     "emoji",
+    "emojione",
     "emojis",
     "smiley",
     "emoticon",
