@@ -1,6 +1,6 @@
 {
   "name": "cerebro-emojione",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Forked from cerebro-emoj, but uses EmojiOne instead of native emoji",
   "license": "MIT",
   "repository": "https://github.com/nielsmaerten/cerebro-emojione",
