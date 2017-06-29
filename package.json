@@ -1,18 +1,21 @@
 {
   "name": "cerebro-emojione",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Forked from cerebro-emoj, but uses EmojiOne instead of native emoji",
   "license": "MIT",
   "repository": "https://github.com/nielsmaerten/cerebro-emojione",
-  "authors": [{
-    "name": "Alexandr Subbotin",
-    "email": "kelionweb@gmail.com",
-    "url": "asubbotin.ru"
-  },{
-    "name": "Niels Maerten",
-    "email": "sayhi@niels.me",
-    "url": "niels.me"
-  }],
+  "authors": [
+    {
+      "name": "Alexandr Subbotin",
+      "email": "kelionweb@gmail.com",
+      "url": "asubbotin.ru"
+    },
+    {
+      "name": "Niels Maerten",
+      "email": "sayhi@niels.me",
+      "url": "niels.me"
+    }
+  ],
   "engines": {
     "node": ">=4"
   },
