@@ -17,7 +17,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "build": "webpack && babili dist -d dist --compact --no-comments",
+    "build": "webpack && babel dist -d dist",
     "debug": "./scripts/debug",
     "prepublish": "rm -rf ./dist && npm run build"
   },
@@ -36,10 +36,12 @@
     "cerebro-plugin"
   ],
   "devDependencies": {
+    "babel-cli": "^6.24.1",
     "babel-core": "^6.18.2",
     "babel-loader": "^6.2.8",
     "babel-plugin-syntax-jsx": "^6.18.0",
     "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-env": "^1.5.2",
     "babili": "0.0.9",
     "cerebro-tools": "^0.1.0",
     "css-loader": "^0.26.0",
