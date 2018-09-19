@@ -1,9 +1,7 @@
-# cerebro-emojione
+# cerebro-twemoji
 
 > [Cerebro](http://www.cerebroapp.com) plugin to find relevant emoji from text.  
-Forked from [cerebro-emoj](https://github.com/KELiON/cerebro-emoj), but uses [EmojiOne](https://emojione.com) instead of your OS native emoji
-
-![](screenshot.png)
+Forked from [cerebro-emoj](https://github.com/KELiON/cerebro-emoj), but uses [Twemoji](https://github.com/twitter/twemoji) instead of your OS native emoji
 
 Uses the API from this great article on [Emoji & Deep Learning](http://getdango.com/emoji-and-deep-learning.html).<br>
 Check out the [Dango app](http://getdango.com) if you want something like this on your phone.
