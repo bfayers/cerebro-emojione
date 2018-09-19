@@ -16,7 +16,7 @@ const style = {
   border: undefined, // TODO: Use settings to see if EmojiOne is enabled. Set border to 'var(--main-border)' if not
   cursor: 'pointer'
 };
-EmojiOne.imagePathPNG = "https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/"
+EmojiOne.imagePathPNG = "https://cdnjs.cloudflare.com/ajax/libs/twemoji/11.1.0/16x16/"
 module.exports = ({emoji, onClick}) => (
   // TODO: Add a setting to enable/disable EmojiOne
   <div style={style} onClick={onClick} dangerouslySetInnerHTML={{__html: EmojiOne.unicodeToImage(emoji)}}></div>
